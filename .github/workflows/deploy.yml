@@ -26,10 +26,12 @@ jobs:
           node-version: '20.5.0'
 
       - name: Install and Build 
+        run: |
           npm ci
           npm run build
           
       - name: Test
+        run: |
           npm run test
 
       - name: Deploy 
