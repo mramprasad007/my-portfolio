@@ -1,21 +1,19 @@
-.app {
-  text-align: center;
-  &_header {
-    $self: &;
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    &#{ $self }__red {
-      background-color: #d8370e;
-    }
-    &#{ $self }__blue {
-      background-color: #0e36d8;
-    }
+.header {
+  $self: &;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  &#{ $self }__red {
+    background-color: #d8370e;
+  }
+
+  &#{ $self }__blue {
+    background-color: #0e36d8;
   }
 }
-
