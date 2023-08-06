@@ -5,7 +5,7 @@ const App = (): JSX.Element => {
     <div>
       <header className={`${styles.header}   ${styles.header__red}`}>
          <p>
-           Portfolio coming soon
+            Portfolio coming soon
         </p>
       </header>
     </div>
