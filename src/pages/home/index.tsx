@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from './app.module.scss'
-const App = (): JSX.Element => {
+import styles from './home.module.scss'
+
+const Home = (): JSX.Element => {
   return (
     <div>
       <header className={`${styles.header}   ${styles.header__red}`}>
@@ -12,4 +13,4 @@ const App = (): JSX.Element => {
   )
 }
 
-export default App
+export default Home
