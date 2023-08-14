@@ -1,5 +1,19 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html {
   margin: 0;
-  font-family: "europa", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+
+
+
+
+

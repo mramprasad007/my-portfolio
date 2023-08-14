@@ -1,7 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { composeStories } from '@storybook/react'
-import * as stories from './home.stories'
+import * as stories from './overview.stories'
 
 const { Default } = composeStories(stories)
 

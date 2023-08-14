@@ -1,10 +1,7 @@
+@use '../../theme' as *;
+
 .home {
-  background-color: #000;
+  background-color: $app-black;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  color: white;
+  position: relative;
 }
