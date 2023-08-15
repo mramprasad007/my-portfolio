@@ -43,6 +43,13 @@
       font-weight: 500;
       line-height: normal;
       color:$app-white;
+      cursor:pointer; 
+      &:hover{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+      }
+      
       &#{ $self }_menu__white{
         background-color: $app-white;
         border-radius: 2rem;
