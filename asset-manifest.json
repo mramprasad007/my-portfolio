@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4f41da6.css",
-    "main.js": "/static/js/main.4658b130.js",
+    "main.css": "/static/css/main.dfc8b83d.css",
+    "main.js": "/static/js/main.980c219d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/ram-image.png": "/static/media/ram-image.4b82bc0acde5bc66ea5f.png",
+    "static/media/ram-image.png": "/static/media/ram-image.9f3c283aa9c56e0e9d00.png",
     "static/media/OpenSans-VariableFont_wdth.ttf": "/static/media/OpenSans-VariableFont_wdth.071a1becc7f00e33cc5b.ttf",
     "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
@@ -12,12 +12,12 @@
     "static/media/github.svg": "/static/media/github.533a4f79257db89ad31536df2db52c7a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.a20e2f27445e6a8a424417ce9ba927ba.svg",
     "static/media/download.svg": "/static/media/download.e39232d1b240a5744bdae16a34275bfb.svg",
-    "main.e4f41da6.css.map": "/static/css/main.e4f41da6.css.map",
-    "main.4658b130.js.map": "/static/js/main.4658b130.js.map",
+    "main.dfc8b83d.css.map": "/static/css/main.dfc8b83d.css.map",
+    "main.980c219d.js.map": "/static/js/main.980c219d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4f41da6.css",
-    "static/js/main.4658b130.js"
+    "static/css/main.dfc8b83d.css",
+    "static/js/main.980c219d.js"
   ]
 }
