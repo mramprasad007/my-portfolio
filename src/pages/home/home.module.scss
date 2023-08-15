@@ -1,0 +1,8 @@
+@use '../../theme' as *;
+
+.home {
+  background-color: $app-black;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
