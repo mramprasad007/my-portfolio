@@ -7,6 +7,6 @@ const { Default } = composeStories(stories)
 
 test('renders learn react link', () => {
   render(<Default />)
-  const linkElement = screen.getByText(/About/i)
+  const linkElement = screen.getByText(/Ram Prasad/i)
   expect(linkElement).toBeInTheDocument()
 })

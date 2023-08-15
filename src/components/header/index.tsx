@@ -12,7 +12,7 @@ const Header = (): JSX.Element => {
       </div>
       <div className={`${styles.header_menu_section}`}>
         <div className={`${styles.header_menu}`}>
-          About
+          About Me
         </div>
         <div className={`${styles.header_menu}`}>
           Skills
