@@ -7,8 +7,9 @@ import linkedinIcon from '../../assets/linkedin.svg'
 
 const Overview = (): JSX.Element => {
   return (
-      <div className={`${styles.overview}`}>
-        <div className={`${styles.overview_bio}`}>
+    <div className={`${styles.overview}`}>
+      <div className={`${styles.overview_bio}`}>
+        <div className={`${styles.overview_bio_container}`}>
           <div className={`${styles.overview_desc}`}>
             <div className={`${styles.overview_hi}`}>
               Hi, I am
@@ -24,8 +25,8 @@ const Overview = (): JSX.Element => {
                 <img src={downloadIcon} alt="download icon"></img>
               </div>
               <div className={`${styles.overview_social_icon}`}>
-              <img src={linkedinIcon} alt="linkedin icon"></img>
-                </div>
+                <img src={linkedinIcon} alt="linkedin icon"></img>
+              </div>
               <div className={`${styles.overview_social_icon}`}>
                 <img src={githubIcon} alt="github icon"></img>
               </div>
@@ -35,8 +36,18 @@ const Overview = (): JSX.Element => {
             <img src={ramImage} alt="ram image"></img>
           </div>
         </div>
-        <div className={`${styles.overview_summary}`}></div>
       </div>
+      <div className={`${styles.overview_summary}`}>
+      <div className={`${styles.overview_summary_container}`}>
+        <div className={`${styles.overview_summary_label}`}>
+          Summary
+        </div>
+        <div className={`${styles.overview_summary_content}`}>
+          👨‍💻 Principal Software Engineer with over 8 years of extensive experience in Frontend Focused Full Stack Web Development.
+        </div>
+      </div>
+      </div>
+    </div>
   )
 }
 

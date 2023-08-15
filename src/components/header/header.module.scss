@@ -8,7 +8,10 @@
   display: flex;
   justify-self: center;
   align-items: center;
-  margin-top: 2rem;
+  max-width: $app-max-width;
+  left: 0;
+  right: 0;
+  margin: 2rem auto 0 auto;
   padding: 0 2rem;
   &_icon_section{
     flex: 50%;
@@ -30,16 +33,16 @@
     align-items: center;
     justify-content: space-evenly;
     #{ $self }_menu {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 2rem;
       width: 8rem;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       line-height: normal;
-      color:white;
+      color:$app-white;
       &#{ $self }_menu__white{
         background-color: $app-white;
         border-radius: 2rem;
