@@ -41,14 +41,14 @@ const Overview = (): JSX.Element => {
                 Full-Stack / Front-End Developer
               </div>
               <div className={`${styles.overview_social}`}>
-                <div className={`${styles.overview_social_icon}`} onClick={() => { handleDownload(resumeDownloadLink, 'Resume.pdf') }}>
-                  <img src={downloadIcon} alt="download icon"></img>
-                </div>
                 <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(linkedInLink) }}>
                   <img src={linkedinIcon} alt="linkedin icon"></img>
                 </div>
                 <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(githubLink) }}>
                   <img src={githubIcon} alt="github icon"></img>
+                </div>
+                <div className={`${styles.overview_social_icon}`} onClick={() => { handleDownload(resumeDownloadLink, 'Resume.pdf') }}>
+                  <img src={downloadIcon} alt="download icon"></img>
                 </div>
               </div>
             </div>
