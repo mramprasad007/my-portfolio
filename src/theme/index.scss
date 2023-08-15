@@ -3,6 +3,7 @@ $screen-mobile-max: 599px;
 $app-grey:#D7D7D7;
 $app-black:#000;
 $app-white: white;
+$app-dark-grey: #909090;
 
 @mixin mobile {
     @media screen and (max-width: #{$screen-mobile-max}) {
