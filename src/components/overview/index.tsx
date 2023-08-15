@@ -58,16 +58,6 @@ const Overview = (): JSX.Element => {
           </div>
         </div>
       </div>
-      <div className={`${styles.overview_summary}`}>
-        <div className={`${styles.overview_summary_container}`}>
-          <div className={`${styles.overview_summary_label}`}>
-            Summary
-          </div>
-          <div className={`${styles.overview_summary_content}`}>
-            👨‍💻 Principal Software Engineer with over 8 years of extensive experience in Frontend Focused Full Stack Web Development.
-          </div>
-        </div>
-      </div>
     </div>
   )
 }
