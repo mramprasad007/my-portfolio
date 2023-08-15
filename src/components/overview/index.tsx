@@ -30,24 +30,26 @@ const Overview = (): JSX.Element => {
       <div className={`${styles.overview_bio}`}>
         <div className={`${styles.overview_bio_container}`}>
           <div className={`${styles.overview_desc}`}>
-            <div className={`${styles.overview_hi}`}>
-              Hi, I am
-            </div>
-            <div className={`${styles.overview_name}`}>
-              Ram Prasad
-            </div>
-            <div className={`${styles.overview_tagline}`}>
-              Full-Stack / Front-End Developer
-            </div>
-            <div className={`${styles.overview_social}`}>
-              <div className={`${styles.overview_social_icon}`} onClick={() => { handleDownload(resumeDownloadLink, 'Resume.pdf') }}>
-                <img src={downloadIcon} alt="download icon"></img>
+            <div className={`${styles.overview_desc_container}`}>
+              <div className={`${styles.overview_hi}`}>
+                Hi, I am
               </div>
-              <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(linkedInLink) }}>
-                <img src={linkedinIcon} alt="linkedin icon"></img>
+              <div className={`${styles.overview_name}`}>
+                Ram Prasad
               </div>
-              <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(githubLink) }}>
-                <img src={githubIcon} alt="github icon"></img>
+              <div className={`${styles.overview_tagline}`}>
+                Full-Stack / Front-End Developer
+              </div>
+              <div className={`${styles.overview_social}`}>
+                <div className={`${styles.overview_social_icon}`} onClick={() => { handleDownload(resumeDownloadLink, 'Resume.pdf') }}>
+                  <img src={downloadIcon} alt="download icon"></img>
+                </div>
+                <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(linkedInLink) }}>
+                  <img src={linkedinIcon} alt="linkedin icon"></img>
+                </div>
+                <div className={`${styles.overview_social_icon}`} onClick={() => { handleRedirect(githubLink) }}>
+                  <img src={githubIcon} alt="github icon"></img>
+                </div>
               </div>
             </div>
           </div>
@@ -57,14 +59,14 @@ const Overview = (): JSX.Element => {
         </div>
       </div>
       <div className={`${styles.overview_summary}`}>
-      <div className={`${styles.overview_summary_container}`}>
-        <div className={`${styles.overview_summary_label}`}>
-          Summary
+        <div className={`${styles.overview_summary_container}`}>
+          <div className={`${styles.overview_summary_label}`}>
+            Summary
+          </div>
+          <div className={`${styles.overview_summary_content}`}>
+            👨‍💻 Principal Software Engineer with over 8 years of extensive experience in Frontend Focused Full Stack Web Development.
+          </div>
         </div>
-        <div className={`${styles.overview_summary_content}`}>
-          👨‍💻 Principal Software Engineer with over 8 years of extensive experience in Frontend Focused Full Stack Web Development.
-        </div>
-      </div>
       </div>
     </div>
   )
